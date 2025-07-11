@@ -1,0 +1,240 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins", sans-serif;
+    color: white;
+    
+}
+
+.navbar-logo{
+    width:4rem;
+    border-radius: 3rem;
+}
+
+
+.nav-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 0, 0.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.txt-green{
+    color:yellow;
+}
+.image-container{
+    width:80%;
+    border-radius: 50%;
+    aspect-ratio:1;
+
+    border-top: 1rem solid white;
+    border-bottom: 1rem solid white;
+    background-image: url("images/prot-pic.jpg");
+    background-position: center;
+    background-size: 150%;
+    background-size:80%;
+
+    box-shadow: 0 0 1rem white,
+    inset 0 0 1rem white,
+    0 0 2rem yellow,
+    inset 0 0 2rem yellow,
+    0 0 7rem yellow,
+    inset 0 0 4rem yellow;
+    
+}
+
+.section1{
+    min-height: 88vh;
+    margin-top: 6rem;
+}.section2{
+    min-height: 70vh;
+    margin-top: 1rem;
+}
+.section3{
+    min-height: 40vh;
+    display: block;
+    justify-content: center;
+}
+.section4{
+    min-height: 88vh;
+}
+h1{
+    font-size:100%;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+span{
+    text-transform:uppercase;
+}
+.icons a{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    width:2rem;
+    color: white;
+}
+
+.txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-style:italic;
+    text-transform: lowercase;
+}
+
+
+
+
+
+@media screen and(max-width:680px){
+    h1{
+        font-size:2rem;
+    }
+    .image-container{
+        width:100%;
+    }
+    .section1{
+        min-height: 72vh;  
+     }
+     .fixed-top{
+        position: none;
+     }
+     .button{
+        width: 100%;
+     }
+     .nav{
+        height:40vh ;
+     }
+     .navbar-logo{
+        width: 2rem;
+     }
+     .navbar-logo{
+        width:2rem;
+        border-radius:50%;
+    }
+
+}
+
+
+
+form {
+    background-color: #ccc;
+    background:transparent;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 40%;
+    background-color: transparent;
+    color: wheat;
+    
+}
+.contact-me{
+    display: flex;
+    justify-content: center;
+}
+label {
+    font-weight: bold;
+    margin-top:1rem;
+    
+}
+input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    background-color: #ccc;
+    color:black;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+    width:30%;
+    background-color: yellow;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.skills-section {
+    max-width: 50%;
+    margin: 0 auto;
+    
+}
+.skill {
+    margin-bottom: 20px;
+}
+.skill-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+
+}
+.skill-bar {
+    width: 100%;
+    background-color: #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+}
+.skill-bar-fill {
+    height: 15px;
+    border-radius: 8px;
+    text-align: right;
+    padding-right: 10px;
+    line-height: 15px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+.skill-bar-fill.html { background-color: #f16529; width: 90%; }
+.skill-bar-fill.css { background-color: #2965f1; width: 80%; }
+.skill-bar-fill.javascript { background-color: #f7df1e; width: 60%; color: black; }
+.skill-bar-fill.java { background-color: #f71ebd; width: 70%; color: black; }
+
+
+.projects {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:1.5rem;
+    flex-wrap: wrap;
+  }
+  
+
+
+.headings{
+    font-size: 2rem;
+    font-weight:normal;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-shadow: #ccc;
+    text-overflow: ellipsis;
+    color:#fff;
+    text-shadow:#f7df1e;
+    margin: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+
+
+.background-img{
+    width: 100%;
+}
+
+.card-size{
+    height: 20rem;
+}
+
+
+.footer-table{
+    display: flex;
+    justify-content: center;
+    gap:10rem;
+    flex-wrap: wrap;
+    margin-bottom:.5rem;
+}
+.footer-contact input{
+    width:10rem;
+    margin-left: 0.5rem;
+    height: 1.5rem;
+}
+
